@@ -11,6 +11,14 @@
 		BEC4E380294B968D001D32EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC4E37F294B968D001D32EC /* ContentView.swift */; };
 		BEC4E382294B968F001D32EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC4E381294B968F001D32EC /* Assets.xcassets */; };
 		BEC4E385294B968F001D32EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC4E384294B968F001D32EC /* Preview Assets.xcassets */; };
+		BEC4E38D294B96EA001D32EC /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = BEC4E38C294B96EA001D32EC /* FLAnimatedImage */; };
+		BEC4E38F294B9718001D32EC /* GIF view.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC4E38E294B9718001D32EC /* GIF view.swift */; };
+		BEC4E391294B97F6001D32EC /* Loading page.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC4E390294B97F6001D32EC /* Loading page.swift */; };
+		BEC4E393294B9858001D32EC /* pro.gif in Resources */ = {isa = PBXBuildFile; fileRef = BEC4E392294B9858001D32EC /* pro.gif */; };
+		BEC4E397294B98A7001D32EC /* Loading page 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC4E396294B98A7001D32EC /* Loading page 1.swift */; };
+		BEC4E399294B99EE001D32EC /* proo.gif in Resources */ = {isa = PBXBuildFile; fileRef = BEC4E398294B99EE001D32EC /* proo.gif */; };
+		BEC4E3A5294BC02B001D32EC /* OnboardingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC4E3A4294BC02B001D32EC /* OnboardingItem.swift */; };
+		BEC4E3A8294BCB7A001D32EC /* page1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC4E3A7294BCB7A001D32EC /* page1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,13 @@
 		BEC4E37F294B968D001D32EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BEC4E381294B968F001D32EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEC4E384294B968F001D32EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEC4E38E294B9718001D32EC /* GIF view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GIF view.swift"; sourceTree = "<group>"; };
+		BEC4E390294B97F6001D32EC /* Loading page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Loading page.swift"; sourceTree = "<group>"; };
+		BEC4E392294B9858001D32EC /* pro.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pro.gif; sourceTree = "<group>"; };
+		BEC4E396294B98A7001D32EC /* Loading page 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Loading page 1.swift"; sourceTree = "<group>"; };
+		BEC4E398294B99EE001D32EC /* proo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = proo.gif; sourceTree = "<group>"; };
+		BEC4E3A4294BC02B001D32EC /* OnboardingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingItem.swift; sourceTree = "<group>"; };
+		BEC4E3A7294BCB7A001D32EC /* page1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC4E38D294B96EA001D32EC /* FLAnimatedImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +69,7 @@
 			children = (
 				BEC4E37D294B968D001D32EC /* GIFApp.swift */,
 				BEC4E37F294B968D001D32EC /* ContentView.swift */,
+				BEC4E39B294BA9A9001D32EC /* View */,
 				BEC4E381294B968F001D32EC /* Assets.xcassets */,
 				BEC4E383294B968F001D32EC /* Preview Content */,
 			);
@@ -63,8 +80,30 @@
 			isa = PBXGroup;
 			children = (
 				BEC4E384294B968F001D32EC /* Preview Assets.xcassets */,
+				BEC4E38E294B9718001D32EC /* GIF view.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BEC4E39B294BA9A9001D32EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEC4E3A6294BC0C5001D32EC /* ene */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BEC4E3A6294BC0C5001D32EC /* ene */ = {
+			isa = PBXGroup;
+			children = (
+				BEC4E3A4294BC02B001D32EC /* OnboardingItem.swift */,
+				BEC4E3A7294BCB7A001D32EC /* page1.swift */,
+				BEC4E390294B97F6001D32EC /* Loading page.swift */,
+				BEC4E396294B98A7001D32EC /* Loading page 1.swift */,
+				BEC4E392294B9858001D32EC /* pro.gif */,
+				BEC4E398294B99EE001D32EC /* proo.gif */,
+			);
+			path = ene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +122,9 @@
 			dependencies = (
 			);
 			name = GIF;
+			packageProductDependencies = (
+				BEC4E38C294B96EA001D32EC /* FLAnimatedImage */,
+			);
 			productName = GIF;
 			productReference = BEC4E37A294B968D001D32EC /* GIF.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +153,9 @@
 				Base,
 			);
 			mainGroup = BEC4E371294B968D001D32EC;
+			packageReferences = (
+				BEC4E38B294B96EA001D32EC /* XCRemoteSwiftPackageReference "FLAnimatedImage" */,
+			);
 			productRefGroup = BEC4E37B294B968D001D32EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +170,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC4E399294B99EE001D32EC /* proo.gif in Resources */,
+				BEC4E393294B9858001D32EC /* pro.gif in Resources */,
 				BEC4E385294B968F001D32EC /* Preview Assets.xcassets in Resources */,
 				BEC4E382294B968F001D32EC /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC4E397294B98A7001D32EC /* Loading page 1.swift in Sources */,
+				BEC4E391294B97F6001D32EC /* Loading page.swift in Sources */,
+				BEC4E38F294B9718001D32EC /* GIF view.swift in Sources */,
+				BEC4E3A8294BCB7A001D32EC /* page1.swift in Sources */,
 				BEC4E380294B968D001D32EC /* ContentView.swift in Sources */,
 				BEC4E37E294B968D001D32EC /* GIFApp.swift in Sources */,
+				BEC4E3A5294BC02B001D32EC /* OnboardingItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +391,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BEC4E38B294B96EA001D32EC /* XCRemoteSwiftPackageReference "FLAnimatedImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Flipboard/FLAnimatedImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BEC4E38C294B96EA001D32EC /* FLAnimatedImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEC4E38B294B96EA001D32EC /* XCRemoteSwiftPackageReference "FLAnimatedImage" */;
+			productName = FLAnimatedImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BEC4E372294B968D001D32EC /* Project object */;
 }
