@@ -29,8 +29,20 @@ struct page1: View {
                 .font(.subheadline)
                 .frame(width: 300)
             if page.tag == 1{
-                Button("Sign up", action: goToZero)
+                Button("Register", action: goToZero)
                     .buttonStyle(.bordered)
+                    .font(.system(size: 25))
+                    .foregroundColor(Color.white)
+                    .frame(width: 313,height: 54)
+                    .background(Color("Blue"))
+                    .cornerRadius(8)
+                    .padding()
+                Button("log in", action: goToZero)
+                 /*   .font(.system(size: 25))
+                    .foregroundColor(Color.white)
+                    .frame(width: 313,height: 54)
+                    .background(Color("Blue"))
+                    .cornerRadius(8)*/
             }else {
                 Button("next", action: incrementPage)
             }
